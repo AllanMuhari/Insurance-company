@@ -531,15 +531,15 @@ p[data-icon] {
 }
 
 p[data-icon='phone']::before {
-    content: url(./images/phone-icon.svg);
+    content: url(images/phone-icon.svg);
 }
 
 p[data-icon='location']::before {
-    content: url(./images/location-icon.svg);
+    content: url(images/location-icon.svg);
 }
 
 p[data-icon='email']::before {
-    content: url(./images/email-icon.svg);
+    content: url(images/email-icon.svg);
 }
 
 .copyright {
