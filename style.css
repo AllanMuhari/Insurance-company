@@ -577,7 +577,7 @@ p[data-icon='email']::before {
     }
 
     .form-img {
-        background: url(./images/contact-landscape.png);
+        background: url(images/contact-landscape.png);
     }
 
     .pricing-cards {
