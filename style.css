@@ -65,11 +65,11 @@ nav,
     width: 50%;
 }
 .member{
+    max-height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    max-height: 10vh;
 
 }
 
@@ -111,12 +111,12 @@ nav li a:hover {
 }
 
 .content-text {
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
-    min-height: 60vh;
     justify-content: center;
     align-items: center;
-    color:  #fafafa;
+    color:  #fff;
     gap: 2rem;
     text-align: center;
 }
@@ -131,7 +131,7 @@ button {
     padding: 1rem;
     border-radius: 0.5rem;
     border: transparent;
-    color:  #fafafa;
+    color:  #fff;
     font-weight: 800;
     cursor: pointer;
     transition: transform 0.4s ease-in-out;
@@ -144,7 +144,7 @@ a:hover {
 
 .button2 {
     background: transparent;
-    border: 1px solid  #fafafa;
+    border: 1px solid  #fff;
 }
 
 .content_button {
@@ -477,7 +477,13 @@ a:hover {
     font-weight: 900;
 }
 
-.form-inputs input,
+.form-inputs input{
+    height: 3rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: 1px solid  #737373;
+    padding: 0 1rem;
+}
 .form-inputs select {
     height: 3rem;
     width: 100%;
@@ -536,7 +542,7 @@ a:hover {
     gap: 1rem;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     html {
         font-size: 10px;
     }
@@ -685,7 +691,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .nav-toggle {
         display: inline-block;
     }
